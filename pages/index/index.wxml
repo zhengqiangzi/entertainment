@@ -1,0 +1,14 @@
+<view class="container">
+
+    <view class="title_list">
+      
+         <text bindtap="cateTitleTapHandler" data-item="{{item}}" class="one_cate_title" wx:for="{{news_categorys}}" wx:key="{{item.index}}">
+            <text wx:if="{{item.focus}}" class="title_focus">{{item.name}}</text>
+            <text wx:else >{{item.name}}</text>
+         </text>
+    </view>
+
+    <view class="newslist-container">
+        <news-list></news-list>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+
+.title_list{
+    display: flex;
+    white-space: nowrap;
+    overflow: auto
+}
+.one_cate_title{
+    padding:10rpx;
+}
+.title_focus{
+    color:#ff0000;
+}
